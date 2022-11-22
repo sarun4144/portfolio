@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(243, 245, 239);
+}
+  .main{
+    font-family: sans-serif;
+    width:100%;  
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    
+  }
+  .h1Home{
+    color: #000000; 
+    font-size: 8rem;
+    text-shadow: 2px 2px #616161;
+     
+  }
+  .HomeAni1{
+    animation: slideH1 2s ; 
+    animation-timing-function: ease-in;
+    
+  }
+  .fontupAni1{
+    animation: fontup 5s infinite ; 
+    animation-delay: 3s;
+
+  }
+   @keyframes slideH1 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  .roller{
+    height: 6.125rem;
+    line-height: 6rem;
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e7c967;
+    font-size: 6rem;
+    text-shadow: 2px 2px #fc5eb5;
+  }
+  
+  
+  #spare-time{
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 1rem;
+    margin-top: 0;
+    color: #634904;
+    
+  }
+  
+  .roller #rolltext {
+    position: absolute;
+    top: 0;
+    animation: slide 2s ;  
+  }
+  
+  @keyframes slide {
+    0%{
+      top:0px;
+      opacity: 0;
+    }
+    25%{
+      top: -9rem;    
+    }
+    50%{
+      top: -12rem;
+    }
+    72.5%{
+      top: -14.25rem;
+    }
+  }
+  @keyframes fontup {
+    0%{
+     font-size: 8.01rem;
+    }
+    25%{
+        font-size: 8.02rem   
+    }
+    50%{
+        font-size: 8.03rem
+    }
+    72.5%{
+        font-size: 8.04rem
+    }
+  }
+  
+  /* @media screen and (max-width: 600px){
+   .h1Home{
+    text-align:center;
+    text-transform: uppercase;
+    color: #F1FAEE; 
+    font-size: 2.125rem;
+  }
+    
+    .roller{
+    height: 2.6rem; 
+    line-height: 2.125rem;  
+    }
+    
+    #spare-time {
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+    }
+    
+    .roller #rolltext {  
+    animation: slide-mob 2s ;  
+  }
+    
+    @keyframes slide-mob {
+    0%{
+      top:0;
+    }
+    25%{
+      top: -2.125rem;    
+    }
+    50%{
+      top: -4.25rem;
+    }
+    72.5%{
+      top: -6.375rem;
+    }
+  }
+  } */
