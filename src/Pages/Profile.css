@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+
+.Profilecards_wrap {
+    background: #ecebeb;
+    border-radius: 5px;
+    width: 50rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+    overflow-y: auto;
+    margin-left: 10px;
+
+}
+
+.Profilecontainer {
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 60rem;
+}
+
+.Profilepic {
+    border-radius: 2%;
+    width: auto;
+    animation: Profilepic 2s infinite;
+    
+}
+
+.Profilepic:hover {
+    border: solid;
+    border-color: transparent;
+    box-shadow: 1rem;
+}
+
+.Leftcolum {
+    text-align: center;
+}
+
+.Profilepic2 {
+    border-radius: 2%;
+    width: auto;
+    animation: Profilepic 2s infinite;
+    margin-right: 40px;
+}
+
+.Profilepic2:hover {
+    border: solid;
+    border-color: transparent;
+    box-shadow: 1rem;
+}
+
+.Profileblickline {
+    height: 100px;
+    width: 20px;
+}
+
+
+.col {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.right {
+    text-align: left;
+}
+
+.left {
+    text-align: end;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.Profilehead {
+    text-shadow: 2px 2px #616161;
+    font-size: 4.8rem;
+
+}
+
+.Profiletext {
+    margin-left: 2rem;
+}
+.Profileultext{
+    letter-spacing: 1.2px;
+}
+li{
+  padding-top: 6px;  
+}
+.Profilebutton {
+    margin-left: 8rem;
+}
+
+.Profileheaddetail {
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}
+
+.Profiledetail {
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.Profileeducation {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .col {
+        width: 100%;
+        text-align: center;
+    }
+    .right {
+        text-align: center;
+    }
+    
+    .left {
+        text-align: center;
+    }
+    
+}
+
+@keyframes Profilepic {
+    0% {
+        box-shadow: rgba(211, 24, 65, 0.35) 0px 8px 70px;
+        opacity: 1;
+        letter-spacing: 2rem;
+    }
+
+    10% {
+        
+        box-shadow: rgba(211, 93, 24, 0.35)0px 8px 70px;
+        opacity: 1
+        
+    }
+
+    20% {
+        letter-spacing: 6rem;
+        box-shadow: rgba(211, 124, 24, 0.35) 0px 8px 70px;
+        opacity: 1
+    }
+
+    30% {
+        
+        box-shadow: rgba(211, 177, 24, 0.35) 0px 8px 70px;
+        opacity: 1
+    }
+
+    40% {
+        letter-spacing: 4rem;
+        box-shadow: rgba(211, 114, 24, 0.35) 0px 8px 70px;
+        opacity: 1
+    }
+
+    50% {
+        letter-spacing: 6rem;
+        box-shadow: rgba(211, 68, 24, 0.35) 0px 8px 70px;
+        opacity: 1
+    }
+
+    60% {
+        letter-spacing: 2rem;
+        box-shadow: rgba(211, 24, 24, 0.35) 0px 8px 70px;
+        opacity: 1
+    }
+
+    70% {
+        
+        box-shadow: rgba(208, 211, 24, 0.35) 0px 8px 70px;
+        opacity: 1
+    }
+}
+
+/* button */
+.Profilebutton1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #b60d0d;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin: 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.Profilebutton1:hover {
+    background-color: #b60d0d;
+    color: white;
+}
+
+.Profilebutton2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    margin: 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Profilebutton2:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.slideUp {
+    animation: slideUp 2s ;
+    visibility: visible;
+  }
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
