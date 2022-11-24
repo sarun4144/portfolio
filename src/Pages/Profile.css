@@ -76,6 +76,17 @@
     display: table;
     clear: both;
   }
+
+  @media screen and (max-width: 1080px) {
+    .col {
+      width: 100%;
+    }
+   .Profilecards_wrap{
+        text-align: left;
+        margin-left: 15%;
+        width: 800px;
+   } 
+  }
 .Profilehead {
     text-shadow: 2px 2px #616161;
     font-size: 4.8rem;

@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import { BsChevronDoubleDown } from "react-icons/bs";
 import Profile from "./Profile";
+import Skill from "./Skill";
 function Home() {
 
   function scrolldown(e) {
@@ -58,6 +59,7 @@ function Home() {
         </div>
       </div>
       <Profile />
+      <Skill/>
     </>
   );
 }

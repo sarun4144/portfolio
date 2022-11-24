@@ -1,0 +1,50 @@
+.Skillcontainer {
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    text-align: center;
+    height: 60rem;
+}
+
+.Skillhead {
+    text-shadow: 2px 2px #616161;
+    font-size: 4.8rem;
+
+}
+
+
+
+.skillrow::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.skillcolumn {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    border-right:solid
+    
+}
+.skillcolumn2{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  
+    
+}
+
+@media screen and (max-width: 1080px) {
+    .skillcolumn {
+      width: 100%;
+    }
+    .skillcolumn2 {
+      width: 100%;
+    }
+  }
+  
+.SubskillHead{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-shadow:2px 2px #616161;
+}
