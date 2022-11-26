@@ -2,7 +2,7 @@
     letter-spacing: 1px;
     font-family: sans-serif;
     text-align: center;
-    height: 60rem;
+    height: 50rem;
 }
 
 .Skillhead {
@@ -10,8 +10,6 @@
     font-size: 4.8rem;
 
 }
-
-
 
 .skillrow::after {
     content: "";
@@ -23,28 +21,191 @@
     float: left;
     width: 33.33%;
     padding: 10px;
-    border-right:solid
-    
+    border-right: solid
 }
-.skillcolumn2{
+
+.skillcolumn2 {
     float: left;
     width: 33.33%;
     padding: 10px;
-  
-    
+
+
 }
+
+.skillmain {
+    margin-top: 2rem;
+    font-family: sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.skillroller {
+    height: 12rem;
+    line-height: 6rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e7c967;
+    font-size: 3rem;
+    text-shadow: 2px 2px #fc5eb5;
+}
+.framworkroller {
+    height: 12rem;
+    line-height: 6rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e7c967;
+    font-size: 3rem;
+    text-shadow: 2px 2px #fc5eb5;
+}
+
+.skillroller #rolltext {
+    margin-top: 8px;
+    position: absolute;
+    top: 0;
+    animation: skillslide 14s infinite ;
+}
+.framworkroller #rolltext {
+    margin-top: 8px;
+    position: absolute;
+    top: 0;
+    animation: framworkslide 8s infinite ;
+}
+.Languageroller {
+    height: 9rem;
+    line-height: 6rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 2rem;
+    text-shadow: 1px 1px #8d878a;
+}
+.Languageroller #rolltext {
+    margin-top: 8px;
+    position: absolute;
+    top: 0;
+    animation: Languagekslide 8s infinite ;
+}
+.Languagecontainer {
+    width: 600px;
+    background-color: #ddd;
+  }
+  
+  .Languageskills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+@keyframes skillslide {
+    0% {
+        top: 0;
+    }
+
+    15% {
+        top: -12rem;
+    }
+
+    30% {
+        top: -22rem;
+    }
+
+    45% {
+        top: -33rem;
+    }
+    60% {
+        top: -44rem;
+    }
+    75% {
+        top: -55rem;
+    }
+    90% {
+        top: -66rem;
+    }
+}
+
+@keyframes framworkslide {
+    0%{
+        top:0px;
+        
+      }
+      25%{
+        top: -11rem;    
+      }
+      50%{
+        top: -23rem;
+      }
+      72.5%{
+        top: -36rem;
+      }
+}
+@keyframes Languagekslide {
+    0%{
+        top:0px;
+      }
+      15%{
+        top: -9rem;    
+      }
+      30%{
+        top: -18rem;
+      }
+      45%{
+        top: -25rem;
+      }
+}
+.skillimg {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+    background-color: #ddd;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+.skillimgCir {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+.skillimgNoborder{
+    padding: 5px;
+    width: 150px;
+  
+  }
+  
+ 
 
 @media screen and (max-width: 1080px) {
     .skillcolumn {
-      width: 100%;
+        width: 100%;
     }
+
     .skillcolumn2 {
-      width: 100%;
+        width: 100%;
     }
-  }
-  
-.SubskillHead{
+}
+
+.SubskillHead {
     font-size: 3rem;
     letter-spacing: 2px;
-    text-shadow:2px 2px #616161;
+    text-shadow: 2px 2px #616161;
 }

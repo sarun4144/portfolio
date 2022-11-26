@@ -54,7 +54,7 @@ function ProfilescrollFunction() {
                             </div>
                         </div> 
                             <div class="col right"> 
-                            <div className=" " id="picslide2">
+                            <div className="ProfileWrap" id="picslide2">
                             <div className="Profilecards_wrap" id="Warp">
                                 <div className="Profiletext">
                                     <div className="Profileheaddetail">

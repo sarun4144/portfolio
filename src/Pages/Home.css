@@ -66,10 +66,10 @@ html {
   .roller #rolltext {
     position: absolute;
     top: 0;
-    animation: slide 2s ;  
+    animation: Homeslide 2s ;  
   }
   
-  @keyframes slide {
+  @keyframes Homeslide {
     0%{
       top:0px;
       opacity: 0;
