@@ -64,8 +64,12 @@ function Skill() {
                 <div className="skillcolumn2" >
                     <h2 className="SubskillHead">Language</h2>
                     <div class="skillmain">
+                        
                         <div class="Languageroller">
+                                
                             <span id="rolltext">
+                                English
+                                <br/>
                                 Speak
                                 <div className="Languagecontainer">
                                 <div style={{width:"25%",backgroundColor:"#ff5757",height:30}}></div>

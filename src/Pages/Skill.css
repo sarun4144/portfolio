@@ -99,7 +99,7 @@
     margin-top: 8px;
     position: absolute;
     top: 0;
-    animation: Languagekslide 8s infinite ;
+    animation: Languagekslide 12s infinite ;
 }
 .Languagecontainer {
     width: 600px;
@@ -159,13 +159,16 @@
         top:0px;
       }
       15%{
-        top: -9rem;    
+        top: -8rem;    
       }
       30%{
-        top: -18rem;
+        top: -16rem;
       }
       45%{
-        top: -25rem;
+        top: -24rem;
+      }
+        60%{
+        top: -32rem;
       }
 }
 .skillimg {
